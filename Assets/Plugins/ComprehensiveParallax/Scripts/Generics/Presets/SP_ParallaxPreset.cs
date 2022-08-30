@@ -1,6 +1,11 @@
 using Arcturus.Parallax.Internal;
 using UnityEngine;
 
+/// <summary>
+/// Source:
+/// https://www.youtube.com/watch?v=EGRDQY6dpdU
+/// </summary>
+
 namespace Arcturus.Parallax
 {
     public class SP_ParallaxPreset : PresetBase
@@ -10,7 +15,7 @@ namespace Arcturus.Parallax
 
         }
 
-        public override void OperateParallax(Camera cam, Vector2 previousCamPos)
+        public override void OperateParallax(Camera cam, Vector2 previousCamPos, Transform subject)
         {
             var movement = (Vector2)cam.transform.position - previousCamPos;
 
@@ -34,7 +39,7 @@ namespace Arcturus.Parallax
                     break;
 
                 default:
-                    targetPos = Vector3.zero;
+                    targetPos = pAsset.position;
                     break;
             }
 

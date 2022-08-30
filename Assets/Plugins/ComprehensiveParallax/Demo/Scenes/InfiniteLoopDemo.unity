@@ -569,16 +569,16 @@ MonoBehaviour:
   parallaxCam: {fileID: 519420031}
   subject: {fileID: 0}
   parallaxConfigs:
-  - presetName: Sliding Pane
-    direction: 2
+  - presetName: Infinite Loop
+    direction: 1
     parallaxAsset: {fileID: 1394957838}
     slideSpeed: {x: 0.1, y: 0.1}
-  - presetName: Sliding Pane
-    direction: 2
+  - presetName: Infinite Loop
+    direction: 1
     parallaxAsset: {fileID: 1719124041}
     slideSpeed: {x: 0.7, y: 0.7}
-  - presetName: Sliding Pane
-    direction: 2
+  - presetName: Infinite Loop
+    direction: 1
     parallaxAsset: {fileID: 996056893}
     slideSpeed: {x: 0.9, y: 1}
 --- !u!1 &519420028
@@ -773,7 +773,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 50, y: 10}
+  m_Size: {x: 56.197445, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -855,7 +855,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 50, y: 10}
+  m_Size: {x: 56.17562, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1018,7 +1018,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 50, y: 10}
+  m_Size: {x: 56.35156, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

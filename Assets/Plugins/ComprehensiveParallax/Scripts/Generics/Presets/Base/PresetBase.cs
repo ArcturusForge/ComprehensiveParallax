@@ -11,7 +11,7 @@ namespace Arcturus.Parallax.Internal
             this.config = config;
         }
 
-        public abstract void OperateParallax(Camera cam, Vector2 previousCamPos);
+        public abstract void OperateParallax(Camera cam, Vector2 previousCamPos, Transform subject);
 
         /// <summary>
         /// A helper function that shortens current position getting of a camera.

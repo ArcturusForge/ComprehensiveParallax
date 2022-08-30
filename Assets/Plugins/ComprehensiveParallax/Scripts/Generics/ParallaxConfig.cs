@@ -7,8 +7,7 @@ namespace Arcturus.Parallax
     public class ParallaxConfig
     {
         [Header("Setup Data")]
-        //public ParallaxPreset preset;
-        [PresetEntryAttribute] public string presetName;
+        [PresetEntry] public string presetName;
         public ParallaxDirection direction;
         public GameObject parallaxAsset;
 
